@@ -1,5 +1,15 @@
 # API для проекта YaMDB в контейнере Docker
 
+## Используемые технологии
+
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
+[![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat-square&logo=NGINX)](https://nginx.org/ru/)
+[![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org/)
+[![docker](https://img.shields.io/badge/-Docker-464646?style=flat-square&logo=docker)](https://www.docker.com/)
+[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)](https://www.djangoproject.com/)
+[![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)](https://www.django-rest-framework.org/)
+[![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+
 ## Описание
 >Представляет собой расширение возможностей проекта YaMDB для совершения удаленных операций.
 >Благодаря этому проекту зарегистрированные и аутентифицированные пользователи получают возможность 
@@ -76,6 +86,10 @@ http://localhost
 
 ### Примеры API-запросов
 Подробные примеры запросов и коды ответов приведены в прилагаемой
-документации в формате ReDoc
+документации в формате ReDoc по адресу:
+
+```
+http://localhost/redoc
+```
 
 ## Авторы: Коновалов Сергей, команда ЯндексПрактикум 
